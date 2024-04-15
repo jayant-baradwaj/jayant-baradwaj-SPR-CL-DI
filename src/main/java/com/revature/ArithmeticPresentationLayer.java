@@ -26,7 +26,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class ArithmeticPresentationLayer {
 
+    @Autowired
     private Adder adder;
+    @Autowired
     private Multiplier multiplier;
     private Squarer squarer;
 
