@@ -30,6 +30,7 @@ public class ArithmeticPresentationLayer {
     private Adder adder;
     @Autowired
     private Multiplier multiplier;
+    @Autowired
     private Squarer squarer;
 
     public void setMultiplier(Multiplier multiplier) {
